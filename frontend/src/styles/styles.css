@@ -1,0 +1,33 @@
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #222222;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #C4C4C4;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #F0CF7F;
+    color: #222222;
+  }
+
+.title {
+    color: #000000;
+}
+
+.landing-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+}
+
