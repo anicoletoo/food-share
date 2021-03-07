@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="/frontend/src/styles/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" />
+    
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -24,7 +27,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>cmd-food App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +42,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div class="container">
+      <div class="topnav">
+        <a class="active" href="#signup">Sign Up</a>
+        <a href="#community">Community</a>
+        <a href="#howitworks">How It Works</a>
+        
+      </div>
+
+      <div class="landing">
+        <div class="landing-grid">
+          <div class="landing-section">
+            <h1 class="title">Product Name</h1>
+            <p>Inspiring sentence or two about the problem our product solves and how awesome it is.</p>
+            <button type="button">Get started with [productname]</button>
+          </div>
+          <div class="landing-section">
+            <img src="https://via.placeholder.com/440" />
+          </div>
+        </div>
+      </div>
+      
+    </div>
   </body>
 </html>
+
