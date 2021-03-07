@@ -155,3 +155,10 @@ body {
   width: 288px;
   height: 68px;
 }
+
+.producer-form {
+  padding-left: 200px;
+  margin: auto;
+  text-align: left;
+  font-size: 20px;
+}
