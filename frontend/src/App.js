@@ -1,12 +1,11 @@
-
+import React from 'react';
+import helloWorld from './components/helloWorld';
 
 function App() {
   return (
-    <div>
-      <h1>
-        Hello World!
-      </h1>
-    </div>
+    
+      <helloWorld />
+    
   );
 }
 
