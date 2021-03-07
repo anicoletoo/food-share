@@ -1,3 +1,7 @@
+body {
+  background-color: #F9F9FA;
+}
+
 h1 {
   font-size: 72px;
   font-family: Roboto, monospace;
@@ -18,13 +22,12 @@ p {
   font-family: Khula, sans-serif;
 }
 
-.decorativebox {
+.logo {
   position: absolute;
   width: 288px;
   height: 64px;
   left: 120px;
   top: 0px;
-  background: #C4C4C4;
 }
 
 .topnav {
@@ -146,4 +149,13 @@ p {
 
 #more-stories {
   font-size: 20px;
+}
+
+.bottom {
+  background-color: #F9F9FA;
+  padding: 100px;
+}
+
+#to-top {
+  background-color: #3A3B40;
 }
