@@ -93,6 +93,11 @@ p {
   border-radius: 73px;
 }
 
+.button-link{
+  text-decoration: none;
+  color:#F9F9FA;
+}
+
 #getstarted {
   position: absolute;
   width: 288px;
