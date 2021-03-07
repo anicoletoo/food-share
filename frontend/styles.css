@@ -98,6 +98,11 @@ p {
   color: #F9F9FA;
 }
 
+#newfood-link {
+  text-decoration: none;
+  color: #F9F9FA;
+}
+
 #getstarted {
   position: absolute;
   width: 288px;
@@ -125,7 +130,7 @@ p {
 }
 
 #learn-more {
-  padding-left: 95px;
+  padding-left: 30px;
   margin: auto;
   width: 288px;
   height: 68px;
