@@ -150,3 +150,8 @@ body {
   font-weight: Regular;
   font-size: 18px;
 }
+
+.description-entry {
+  width: 288px;
+  height: 68px;
+}

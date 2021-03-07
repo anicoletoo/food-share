@@ -4,7 +4,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Khula&display=swap" rel="stylesheet" />
         <link href="./styles.css" rel="stylesheet" /><title>New Food</title><link href="./main.css" rel="stylesheet" />
-        
+        <script src="script.js"></script> 
         <title>New Food</title>
     </head>
     
@@ -15,46 +15,63 @@
             <a href="/food-share/frontend/#howitworks">How It Works</a>
         </div>
 
-        <div class="food_type_title">
-            Food Type
-        </div>
-        <div class="quantity-title">
-            Quantity
-        </div>
-        <div class="best-before-title">
-            Best Before
-        </div>
-        <div class="tags-title">
-            Add Tags
-        </div>
-        <div class="page-title">
-            New Food Item Posting
-        </div>
-        
         <button class="back-btn">
             Back
         </button>
-        
-        <input class="food-type-entry" type = "text" value= "ex. bananas"/> 
-        <div class="buffer-text"> start typing here</div>
-        <div class="zero">0</div>
-        <div class="yyyy">YYYY</div>
-        <div class="mm">MM</div>
-        <div class="dd">DD</div>
-        
-        <input class="checkbox" type="checkbox" id="perishable" name ="perishable" value="perishable"/>
-        <label for="perishable">This product is non-perishable</label> 
-        Tags describe your items’ condition and where it can be donated to, helping us find eligible receivers more accurately.
-        <div class="v42_36">Akeem</div>
-        
 
-        type description here
-        
-        Click to Upload
+        <form class="producer-form">
+            <h1>
+                New Food Item Posting
+            </h1>
+
+            <div class="food_type_title">
+                <h2>Food Type</h2>
+                <input class="food-type-entry" type = "text" value= "ex. bananas"/> 
+            </div>
+            <br>
+            <br>
+            <div class="quantity-title">
+                <h2>Quantity</h2>
+                <div class="zero">0</div>
+            </div>
+            <br>
+            <br>
+            <div class="bb-date">
+            <h2>Best Before</h2>
+                <div class="yyyy">YYYY</div>
+                <div class="mm">MM</div>
+                <div class="dd">DD</div>
+            </div>
+            </div>
+            <br>
+            <br>
+            <div class="tags-title">
+                <h2>Add Tags</h2>
+                <div class="buffer-text"> start typing here</div>
+            </div>
+            <br>
+            <br>
             
-        <button>Submit</button>
-        By submitting, you confirm that you have read the terms and conditions.
-
+            
+            <input class="checkbox" type="checkbox" id="perishable" name ="perishable" value="perishable"/>
+            <label for="perishable">This product is non-perishable</label> 
+            Tags describe your items’ condition and where it can be donated to, helping us find eligible receivers more accurately.
+            
+            <div class="description">
+                <h2>Description</h2>
+                <input class="description-entry" type = "text" value= "type description here"/> 
+            </div>
+            <br>
+            <br>
+            <div class="upload-image">
+                <h2>Image Upload</h2>
+                Click to Upload
+            </div>
+            <br>
+            <br>
+            <button class="button">Submit</button>
+            By submitting, you confirm that you have read the terms and conditions.
+        </form>
     </div>
 </body>
 </html>
