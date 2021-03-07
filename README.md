@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Afoodable
 A Cmd-f project
 
@@ -16,3 +17,9 @@ A tool to connect food producers to organizations to feed the needy community (e
 ### What did not work
 -Connecting cockroach database with sql
 -Not a fully functioning web app
+=======
+# food-share
+Cmd-f project
+Team members: Dula, Nicole, Pavitra, Alice
+A website that facilitates a transparent and visual way to donate excess food.
+>>>>>>> 3233684492b507ae42a37e0268e36f1adfe3e8a2
