@@ -1,22 +1,22 @@
 DROP TABLE IF EXISTS
-  hasfood,
+    hasfood,
 	users;
 	
 CREATE TABLE users(
 	userid CHAR(25),
 	password CHAR(20), 
-	supplier TINYINT(1),
-	receiver TINYINT(1),
+	supplier BOOL,
+	receiver BOOL,
 	postalcode CHAR(7),
 	PRIMARY KEY(userid)
 );
 
 CREATE TABLE hasfood(
-	foodid INT(5),
+	foodid INT,
 	name CHAR(25),
-	quantity INT(4),
-	val INT(4),
-	expiry INT(3),
+	quantity INT,
+	val INT,
+	expiry INT,
 	userid CHAR(25),
 	PRIMARY KEY(foodid),
 	FOREIGN KEY(userid) REFERENCES users(userid) ON DELETE CASCADE ON UPDATE CASCADE
