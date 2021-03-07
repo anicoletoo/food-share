@@ -5,6 +5,10 @@ A Cmd-f project <br />
 ## What is Afoodable?
 A tool to connect food producers to organizations to feed the needy community (ex. food banks, soup kitchens) or population at large (ex. school cafeteria, religious organizations) to prevent food waste. This web app offers a transparent and visual way to repurpose excess food.
 
+## How to launch?
+https://anicoletoo.github.io/food-share/frontend/ <br />
+**Check out the mock up**: https://www.figma.com/file/kJy3KLdSpXQx1zAsrkkxQb/cmd-food-project?node-id=0%3A1 <br />
+
 ## Tools used
 **Web Application**: HTML, CSS, JS <br />
 **Database**: Cockroach Cloud DB <br />
