@@ -1,9 +1,10 @@
+// crets/cc-ca.crt deleted because it's being un-used
+// password removed
 const fs = require('fs');
 const { Pool } = require('pg');
 
 const pool = new Pool ({
     user: 'nicole',
-    password: 'sIehM7H31kx5CtIu',
     host: 'free-tier.gcp-us-central1.cockroachlabs.cloud',
     database: 'bumpy-goat-1137',
     port: '26257',
