@@ -160,7 +160,6 @@ p {
   font-size: 20px;
 }
 
-<<<<<<< HEAD
 body {
   color: rgba(34,34,34,1);
   position: absolute;
@@ -179,7 +178,8 @@ body {
   margin: auto;
   text-align: left;
   font-size: 20px;
-=======
+}
+
 .bottom {
   background-color: #F9F9FA;
   padding: 100px;
@@ -223,5 +223,4 @@ body {
   background-color: #F1C6F8;
   padding: 5px;
   border: 0;
->>>>>>> 38e7dd22a229e2780865d665712763d281cbb6a9
 }
