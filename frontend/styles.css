@@ -58,6 +58,10 @@ p {
   color: #F9F9FA;
 }
 
+.topnav a.logged-in {
+  color: #F36A2B;
+}
+
 .title {
   color: #222222;
   width: 744px;
@@ -158,4 +162,40 @@ p {
 
 #to-top {
   background-color: #3A3B40;
+}
+
+/* styles for receive.html */
+.food-grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.food-section {
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+}
+
+.food-image {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.vegetarian {
+  background-color: #A1FC5A;
+  padding: 5px;
+  border: 0;
+}
+
+.school-approved {
+  background-color: #B8E2FA;
+  padding: 5px;
+  border: 0;
+}
+
+.use-tomorrow {
+  background-color: #F1C6F8;
+  padding: 5px;
+  border: 0;
 }
