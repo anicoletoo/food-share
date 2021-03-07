@@ -1,3 +1,11 @@
+.container {
+  margin: auto auto;
+}
+
+.h2 {
+  font-size: 30px;
+}
+
 .decorativebox {
   position: absolute;
   width: 288px;
@@ -22,7 +30,7 @@
 
 .topnav a:hover {
   background-color: #C4C4C4;
-  color: white;
+  color: #F9F9FA;
 }
 
 .topnav a.active {
@@ -31,11 +39,12 @@
 }
 
 .topnav a.active:hover {
-  background-color: #C4C4C4;
+  background-color: #3A3B40;
+  color: #F9F9FA;
 }
 
 .title {
-  color: #000000;
+  color: #222222;
   width: 744px;
   height: 137px;
   left: 120px;
@@ -54,7 +63,7 @@
 .button {
   background-color: #F36E30;
   border: none;
-  color: white;
+  color: #F9F9FA;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -98,15 +107,38 @@
 
 }
 
-#learnmore {
+#learn-more {
+  padding-left: 95px;
   margin: auto;
   width: 288px;
   height: 68px;
   text-align: center;
+  font-size: 20px;
 }
 
 .center {
-  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  padding: 10px;
+  justify-self: center;
+}
+
+.community {
+  background-color: #3A3B40;
+  padding: 100px;
+  color: #F9F9FA;
+}
+
+#spotlight {
+  color: #F9F9FA;
+  text-align: center;
+}
+
+.community-right {
+  text-align: right;
+}
+
+#more-stories {
+  font-size: 20px;
 }
