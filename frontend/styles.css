@@ -1,9 +1,21 @@
-.container {
-  margin: auto auto;
+h1 {
+  font-size: 72px;
+  font-family: Roboto, monospace;
 }
 
-.h2 {
-  font-size: 30px;
+h2 {
+  font-size: 60px;
+  font-family: Khula, sans-serif;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: Khula, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: Khula, sans-serif;
 }
 
 .decorativebox {
@@ -68,17 +80,10 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 73px;
-
-  font-family: Khula;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 51px;
-  display: flex;
-  align-items: center;
 }
 
 #getstarted {
