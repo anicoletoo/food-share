@@ -30,6 +30,10 @@
   color: #222222;
 }
 
+.topnav a.active:hover {
+  background-color: #C4C4C4;
+}
+
 .title {
   color: #000000;
   width: 744px;
@@ -60,20 +64,20 @@
   cursor: pointer;
   border-radius: 73px;
 
-  position: absolute;
-  width: 288px;
-  height: 62px;
-  left: 120px;
-  top: 452px;
-
   font-family: Khula;
   font-style: normal;
   font-weight: 600;
   line-height: 51px;
   display: flex;
   align-items: center;
-  text-align: center;
+}
 
+#getstarted {
+  position: absolute;
+  width: 288px;
+  height: 62px;
+  left: 120px;
+  top: 452px;
 }
 
 .landing-grid {
@@ -92,4 +96,17 @@
   grid-template-columns: 50% 50%;
   grid-gap: 50px;
 
+}
+
+#learnmore {
+  margin: auto;
+  width: 288px;
+  height: 68px;
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
