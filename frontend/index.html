@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Khula|Roboto+Mono&display=swap" />
 
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,7 +27,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>cmd-food App</title>
+    <title>afoodable</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -43,11 +43,18 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <div class="container">
-      <div class="decorativebox"></div>
-      <div class="topnav">
-        <a class="active" href="#signup">Sign Up</a>
-        <a href="#community">Community</a>
-        <a href="#howitworks">How It Works</a>
+
+       <!-- NavBar -->
+
+      <div class="navbar">
+        <div class="logo">
+          <image src="images/afoodablelogo_orange.png" width="197px" height="64px">
+        </div>
+        <div class="topnav">
+          <a class="active" href="#signup">Sign Up</a>
+          <a href="#community">Community</a>
+          <a href="#howitworks">How It Works</a>
+        </div>
       </div>
 
       <!-- Landing section -->
@@ -55,9 +62,9 @@
       <div class="landing">
         <div class="landing-grid">
           <div class="landing-section">
-            <h1 class="title">Product Name</h1>
+            <h1 class="title">afoodable</h1>
             <p>Inspiring sentence or two about the problem our product solves and how awesome it is.</p>
-            <button type="button" class="button" id="getstarted">Get started with [productname]</button>
+            <button type="button" class="button" id="getstarted"><a id="button-link" href="https://anicoletoo.github.io/food-share/frontend/receive.html">Get Started</a></button>
           </div>
           <div class="landing-section">
             <img src="https://via.placeholder.com/440" />
@@ -116,10 +123,10 @@
       <div id="community">
         <h2 id="spotlight">Spotlight Stories</h2>
         <div class="center">
-          <img src="https://via.placeholder.com/896x371" />
+          <img src="/frontend/images/soccerteam.png" />
         </div>
         <p class="community">The leftover plums from the local farmer’s market would have been tossed, 
-          but [product name] helped us reach out to the farmer’s market. They 
+          but <u>afoodable</u> helped us reach out to the farmer’s market. They 
           generously donated the plums to the boys’ U12 junior soccer team. The plums 
           arrived securely packaged with only some cosmetic imperfections, and were a 
           sweet half-time treat! We won a delicous 3-0 victory! </p>
@@ -128,6 +135,13 @@
 
         <div class="center">
           <button type="button" class="button" id="more-stories">More Stories from our Community</button>
+        </div>
+      </div>
+      
+      <!-- bottom of page -->
+      <div class = "bottom">
+        <div class="center">
+          <button type="button" class="button" id="to-top">Back to Top</button>
         </div>
       </div>
 
