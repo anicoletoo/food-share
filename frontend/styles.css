@@ -1,3 +1,23 @@
+h1 {
+  font-size: 72px;
+  font-family: Roboto, monospace;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: Khula, sans-serif;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: Khula, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: Khula, sans-serif;
+}
+
 .decorativebox {
   position: absolute;
   width: 288px;
@@ -55,21 +75,14 @@
   background-color: #F36E30;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 73px;
-
-  font-family: Khula;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 51px;
-  display: flex;
-  align-items: center;
 }
 
 #getstarted {
@@ -106,7 +119,28 @@
 }
 
 .center {
-  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  padding: 10px;
+  justify-self: center;
+}
+
+.community {
+  background-color: #3A3B40;
+  padding: 100px;
+  color: #F9F9FA;
+}
+
+#spotlight {
+  color: #F9F9FA;
+  text-align: center;
+}
+
+.community-right {
+  text-align: right;
+}
+
+#more-stories {
+  padding: 20px 30px;
 }
