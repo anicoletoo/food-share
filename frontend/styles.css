@@ -95,7 +95,7 @@
   padding: 30px;
 }
 
-.howitworks {
+#howitworks {
   background-color: #F0CF7F;
   padding: 100px;
 }
@@ -124,7 +124,7 @@
   justify-self: center;
 }
 
-.community {
+#community {
   background-color: #3A3B40;
   padding: 100px;
   color: #F9F9FA;
@@ -135,10 +135,18 @@
   text-align: center;
 }
 
-.community-right {
+#community-right {
   text-align: right;
 }
 
 #more-stories {
   font-size: 20px;
+}
+
+body {
+  color: rgba(34,34,34,1);
+  position: absolute;
+  font-family: Khula;
+  font-weight: Regular;
+  font-size: 18px;
 }
